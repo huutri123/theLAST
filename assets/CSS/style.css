@@ -120,6 +120,11 @@
 
 }
 
+/* First content */
+#first-content {
+
+}
+
 .content__header {
 
 }
@@ -148,6 +153,16 @@
     width: 91.2rem;
     text-align: center;
     margin: 0 auto;
+}
+
+/* Second content */
+.content1__body {
+
+}
+
+.content1__body .content1__iphone {
+    display: inline-block;
+    margin: 0 396px;
 }
 
 #footer {
