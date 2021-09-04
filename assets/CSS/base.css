@@ -21,6 +21,15 @@ html {
 }
 
 /* ANIMATION */
+@keyframes objMoving {
+    from {
+        
+    }
+    to {
+        
+    }
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;
