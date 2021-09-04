@@ -49,6 +49,8 @@
 
 .header__nav-item::before {
     content: "";
+    width: 4px;
+    height: 2rem;
     background-color: red;
     position: relative;
 }
