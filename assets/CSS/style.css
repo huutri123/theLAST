@@ -51,13 +51,10 @@
 
 .header__nav-item::before {
     content: "";
-    width: 0.2rem;
-    height: 3rem;
+    width: 4px;
+    height: 2rem;
     background-color: red;
     position: relative;
-    top: 4.5rem;
-    right: 1.5rem;
-    display: block;
 }
 
 .menu-btn {
