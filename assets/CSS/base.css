@@ -20,6 +20,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.col {
+    float: left;
+}
+
+.col-3 {
+    width: calc(100% / 3);
+}
+
 /* ANIMATION */
 @keyframes objMoving {
     from {
