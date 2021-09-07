@@ -20,6 +20,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a:active {
+    color: var(--primary);
+}
+
 .col {
     float: left;
 }
@@ -29,12 +33,21 @@ html {
 }
 
 /* ANIMATION */
-@keyframes objMoving {
+@keyframes objMovingUp {
     from {
-        
+        top: 0;
     }
     to {
-        
+        top: -10px;
+    }
+}
+
+@keyframes objMovingDown {
+    from {
+        top: -10px;
+    }
+    to {
+        top: -0;
     }
 }
 
@@ -59,7 +72,7 @@ html {
 
 @keyframes transferColor{
     from{
-        color: var(--white);
+        
     }
 
     to{
