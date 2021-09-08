@@ -32,6 +32,11 @@ a:active {
     width: calc(100% / 3);
 }
 
+.col-4 {
+    margin:0 113px;
+    text-align: center;
+}
+
 /* ANIMATION */
 @keyframes objMovingUp {
     from {
