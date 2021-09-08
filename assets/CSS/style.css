@@ -129,10 +129,12 @@
     transform: translate(-50%, -50%);
     left: 50%;
     position: absolute;
-    top: 46rem;
+    top: 460px;
     font-size: 1.6rem;
     cursor: pointer;    
 }
+
+.slider__button:hover
 
 #content {
 
@@ -158,10 +160,14 @@
     margin-top: 90rem;
 }
 
+.content__header:last-child {
+    margin-top: 900px;
+}
+
 .content-header__subHeader {
     font-size: 5rem;
     text-align: center;
-    margin-bottom: 7rem;
+    margin-bottom: 70px;
     font-weight: 100;
 }
 
@@ -171,7 +177,7 @@
     width: 35rem;
     background-color: var(--black);
     position: relative;
-    top: 4rem;
+    top: 40px;
     right: 0;
     margin: 0 auto;
     display: block;
@@ -208,7 +214,7 @@
 }
 
 .content1__infoGroupItem {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
     width: 36rem;
 }
 
@@ -234,7 +240,7 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    margin-right: 3rem;
+    margin-right: 30px;
     position: relative;
     transition: 1s;
     animation: objMovingDown ease-in .4s;
@@ -242,7 +248,7 @@
 
 .content1__rightInfoGroup .content1-info__icon {
     margin-right: 0;
-    margin-left: 3rem;
+    margin-left: 30px;
 }
 
 .content1-info__icon i {
@@ -259,9 +265,9 @@
     font-size: 3rem;
     line-height: 5rem;
     position: relative;
-    top: -1.2rem;
+    top: -12px;
     left: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     transition: .8s;
 }
 
@@ -272,11 +278,11 @@
 
 /* Content Separate */
 .content-separ {
-    background-color: black;
     width: 100%;
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
+    background-image: url(./assets/img/content-separ.jpg);
 }
 
 .content-separ .content-separ__item i {
@@ -287,24 +293,23 @@
     font-size: 50px;
 }
 
-.content-separ .content-separ__item .item1 {
+.content-separ__item .item1 {
     padding: 24px 20.88px;
 }
 
-.content-separ .content-separ__item .item2 {
+.content-separ__item .item2 {
     padding: 24px 24px;
 }
 
-.content-separ .content-separ__item .item3 {
+.content-separ__item .item3 {
     padding: 24px 27.13px;
 }
 
-.content-separ .content-separ__item .item4 {
+.content-separ__item .item4 {
     padding: 24px 17.75px;
 }
 
-
-.content-separ .content-separ__item .content-separ__num,
+.content-separ__item .content-separ__num,
 .content-separ .content-separ__item .content-separ__desc {
     color: #fff;
 }
@@ -316,7 +321,6 @@
 .content-separ .content-separ__item .content-separ__desc {
     font-size: 20px;
 }
-
 
 /* Second content */
 #second-content {
