@@ -278,7 +278,7 @@
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
-    background-image: url(/Last-try_project/assets/img/content-separ.jpg);
+    background: url(/assets/img/content-separ.jpg) fixed center;
 }
 
 .content-separ .content-separ__item i {
