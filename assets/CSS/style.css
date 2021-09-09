@@ -157,11 +157,7 @@
 }
 
 .content__header:last-child {
-    margin-top: 90rem;
-}
-
-.content__header:last-child {
-    margin-top: 900px;
+    margin-top: 100px;
 }
 
 .content-header__subHeader {
@@ -282,7 +278,7 @@
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
-    background-image: url(./assets/img/content-separ.jpg);
+    background: url(/assets/img/content-separ.jpg) fixed center;
 }
 
 .content-separ .content-separ__item i {
