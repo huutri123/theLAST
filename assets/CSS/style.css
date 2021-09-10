@@ -536,7 +536,6 @@
 .content3__form > .form-group1 > .form-control {
     width: 37rem;
     float: left;
-
     margin: 0 15px;
     padding: 20px 12px;
     height: 34px;
@@ -548,9 +547,6 @@
 #third-content .content3__form .form-group2 {
     width: 100%;
     margin-top: 32px;
-}
-
-.content3__form .form-group2 {
     height: 216px;
 }
 
@@ -566,9 +562,6 @@
 .content3__form .form-control:focus {
     border-color: #66afe9;
     box-shadow: 0 0 10px rgb(102 175 233 / 60%);
-}
-
-.content3__form .form-control:focus-visible {
     outline: 0 solid #fff;
 }
 
