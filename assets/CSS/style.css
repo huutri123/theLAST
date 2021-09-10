@@ -124,7 +124,7 @@
     font-weight: 500;
 }
 
-.slider__button {
+.rtl-button {
     background-color: var(--primary);
     color: var(--white);
     padding: 16px 40px;
@@ -139,7 +139,7 @@
     overflow: hidden;
 }
 
-.slider__button2 {
+.rtl-button2 {
     background-color: rgba(255, 255, 255, 0.2);
     height: 50px;
     width: 152.72px;
@@ -149,7 +149,7 @@
     transition: .6s ease-in-out;
 }
 
-.slider__button:hover .slider__button2{
+.rtl-button:hover .rtl-button2{
     left: 0;
 }
 
