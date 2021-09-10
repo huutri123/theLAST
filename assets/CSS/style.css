@@ -299,7 +299,7 @@
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
-    background: url(/Last-try_project/assets/img/content-separ.jpg) fixed center;
+    background: url(/assets/img/content-separ.jpg) fixed center;
     display: flex;
     justify-content: space-around;
 }
