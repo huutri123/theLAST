@@ -431,6 +431,14 @@
     font-weight: 500;
 }
 
+#third-content {
+
+}
+
+#third-content .content__header {
+    margin: 100px 0;
+}
+
 #footer {
 
 }
