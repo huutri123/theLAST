@@ -22,5 +22,3 @@ function navbarAdaptation() {
         })
     }
 }
-
-// cay vl

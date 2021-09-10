@@ -72,3 +72,12 @@ a:active {
         transform: translateX(100%);
     }
 }
+
+@keyframes left-to-right {
+    0% {
+        
+    }
+    100% {
+
+    }
+}
