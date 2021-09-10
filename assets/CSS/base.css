@@ -2,6 +2,10 @@
     color: var(--primary);
 }
 
+.clear {
+    clear: both;
+}
+
 :root {
     --black: #000;
     --white: #fff;
