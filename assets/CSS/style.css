@@ -299,7 +299,7 @@
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
-    background: url(/Last-try_project/assets/img/content-separ.jpg) fixed center;
+    background: url(/assets/img/content-separ.jpg) fixed center;
     display: flex;
     justify-content: space-around;
 }
@@ -515,7 +515,7 @@
 }
 
 #third-content {
-
+    
 }
 
 #third-content .content-header {
@@ -523,30 +523,49 @@
 }
 
 .content3__form {
-
+    width: 1170px;
+    height: 435px;
+    padding-top: 80px;
+    margin: 0 auto;
 }
 
-.form-group {
-
+.content3__form .form-group1 {
+    margin: 0 -15px;
 }
 
-.form__name {
-
+.content3__form > .form-group1 > .form-control {
+    width: 37rem;
+    float: left;
+    margin: 0 15px;
+    padding: 20px 12px;
+    height: 34px;
+    line-height: 1.4;
+    font-size: 14px;
+    border: 1px solid #ccc;
 }
 
-.form__email {
-
+#third-content .content3__form .form-group2 {
+    width: 100%;
+    margin-top: 32px;
+    height: 216px;
 }
 
-.form__phone {
-
+.content3__form > .form-group2 > .form-control {
+    width: 100%;
+    height: 100%;
+    padding: 20px 12px;
+    line-height: 1.4;
+    font-size: 14px;
+    border: 1px solid #ccc;
 }
 
-.form__mes {
-
+.content3__form .form-control:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 10px rgb(102 175 233 / 60%);
+    outline: 0 solid #fff;
 }
 
 /* Footer */
 #footer {
-
+    
 }
