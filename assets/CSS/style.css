@@ -299,7 +299,7 @@
     height: 363px;
     margin-top: 867px;
     padding: 85px 0;
-    background: url(/assets/img/content-separ.jpg) fixed center;
+    background: url(/Last-try_project/assets/img/content-separ.jpg) fixed center;
     display: flex;
     justify-content: space-around;
 }
@@ -557,6 +557,13 @@
     line-height: 1.4;
     font-size: 14px;
     border: 1px solid #ccc;
+    position: relative;
+}
+
+.content3__form > .form-group2 > .form-control::placeholder {
+    position: absolute;
+    top: 20px;
+    left: 12px;
 }
 
 .content3__form .form-control:focus {
